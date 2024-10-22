@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 
 # Load the dataset
-df = pd.read_csv('data/lemonade_dataset_c.csv')
+df = pd.read_csv('./data/lemonade_dataset_c.csv')
 
 X = df['Temperature (°C)'].values.reshape(-1, 1)
 y = df['Lemonade (Liters)']
